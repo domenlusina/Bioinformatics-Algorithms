@@ -1,0 +1,30 @@
+ Unconditionally compress EF.dat.
+ Searching for approximate repeats!
+ The compressed filename is EF.GEN!
+0.011317%
+6.258488%
+12.505659%
+18.752829%
+25.000000%
+31.247171%
+37.494341%
+43.741512%
+51.878678%
+56.235853%
+63.524219%
+68.730195%
+77.229516%
+81.224536%
+87.743323%
+96.050249%
+99.966048%
+
+
+ The size of original file is 8836 bytes.
+ The size of compressed file is 1685 bytes.
+ The compression ratio is 80.930285%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

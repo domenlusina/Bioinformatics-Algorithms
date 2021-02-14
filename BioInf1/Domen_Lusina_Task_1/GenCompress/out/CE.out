@@ -1,0 +1,30 @@
+ Unconditionally compress CE.dat.
+ Searching for approximate repeats!
+ The compressed filename is CE.GEN!
+0.009717%
+6.257895%
+12.506073%
+18.754251%
+25.002429%
+31.250607%
+37.498785%
+43.746963%
+49.995141%
+56.243319%
+64.736177%
+68.739675%
+76.105335%
+81.887086%
+88.523953%
+97.599845%
+99.980566%
+
+
+ The size of original file is 10291 bytes.
+ The size of compressed file is 2025 bytes.
+ The compression ratio is 80.322612%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

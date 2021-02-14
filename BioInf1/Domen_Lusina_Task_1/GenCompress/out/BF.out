@@ -1,0 +1,30 @@
+ Unconditionally compress BF.dat.
+ Searching for approximate repeats!
+ The compressed filename is BF.GEN!
+0.010201%
+6.253188%
+12.496175%
+18.739161%
+24.982148%
+31.225135%
+37.468122%
+43.711109%
+49.954096%
+57.359992%
+62.511476%
+71.172090%
+79.649087%
+81.169030%
+89.044170%
+97.000918%
+100.000000%
+
+
+ The size of original file is 9803 bytes.
+ The size of compressed file is 1579 bytes.
+ The compression ratio is 83.892686%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

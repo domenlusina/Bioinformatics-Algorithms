@@ -1,0 +1,30 @@
+ Unconditionally compress DE.dat.
+ Searching for approximate repeats!
+ The compressed filename is DE.GEN!
+0.011247%
+6.253515%
+12.495782%
+18.738050%
+24.980317%
+31.222585%
+37.464852%
+43.707120%
+49.949387%
+56.607806%
+62.433922%
+72.421550%
+76.256889%
+81.160724%
+88.966370%
+96.895737%
+99.887527%
+
+
+ The size of original file is 8891 bytes.
+ The size of compressed file is 1693 bytes.
+ The compression ratio is 80.958272%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

@@ -1,0 +1,30 @@
+ Conditionally compress B.dat with reference to H.dat.
+ Searching for approximate repeats!
+  The compressed filename is B.GEN!
+0.019708%
+6.267245%
+12.514781%
+18.762318%
+25.009854%
+31.257391%
+37.544344%
+43.752464%
+50.000000%
+56.247536%
+62.495073%
+68.742609%
+77.571935%
+81.237682%
+90.165550%
+93.732755%
+99.980292%
+
+
+ The size of original file is 5074 bytes.
+ The size of compressed file is 1098 bytes.
+ The compression ratio is 78.360268%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

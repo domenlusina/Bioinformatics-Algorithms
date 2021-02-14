@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+No. of Repeats|Total Score|Length  |Diagonal| BW-From|   BW-To|   Level
+             6|     238.23|      26|      37|      85|     110|       1
+---------------------------------------------------------------------------
+   59-   97 (48.30/19.56)	ACF..E..Q.PCQNQAQC.......valpqreyqclcqPGYHGKHCE..FMID
+   98-  136 (49.23/20.06)	ACY..G..N.PCRNNATC.......tvleegrfscqcaPGYTGARCE..TNID
+  137-  175 (37.47/13.71)	DCL..G..EiKCQNNATC........idgvesykcecqPGFSGEFCD..TKIQ
+  176-  215 (37.62/13.79)	FCS..PefN.PCANGAKC........mdhfthyscdcqAGFHGTNCT..DNID
+  216-  255 (38.25/14.13)	DCQ..N..H.MCQNGGTC........vdgindyqcrcpDDYTGKYCEghNMIS
+  256-  300 (27.36/ 8.25)	MMYpqT..S.PCQNH.ECkhgvcfqpnaqgsdylcrchPGYTGKWCE..YL..
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+No. of Repeats|Total Score|Length  |Diagonal| BW-From|   BW-To|   Level
+             3|      70.47|      12|      37|     151|     162|       2
+---------------------------------------------------------------------------
+  151-  162 (23.99/10.83)	IDGVESYKCECQ
+  191-  202 (26.30/12.58)	MDHFTHYSCDCQ
+  229-  239 (20.18/ 7.94)	VDGINDYQCRC.
+---------------------------------------------------------------------------
+

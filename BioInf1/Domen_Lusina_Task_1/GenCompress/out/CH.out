@@ -1,0 +1,30 @@
+ Unconditionally compress CH.dat.
+ Searching for approximate repeats!
+ The compressed filename is CH.GEN!
+0.010458%
+6.253922%
+12.497385%
+18.740849%
+24.984313%
+31.227777%
+37.471240%
+43.714704%
+49.958168%
+56.201631%
+62.445095%
+68.688559%
+74.932023%
+81.175486%
+87.910479%
+93.662414%
+99.905877%
+
+
+ The size of original file is 9562 bytes.
+ The size of compressed file is 2187 bytes.
+ The compression ratio is 77.128216%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

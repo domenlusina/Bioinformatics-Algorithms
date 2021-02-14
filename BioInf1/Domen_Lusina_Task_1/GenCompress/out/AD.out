@@ -1,0 +1,30 @@
+ Unconditionally compress AD.dat.
+ Searching for approximate repeats!
+ The compressed filename is AD.GEN!
+0.009229%
+6.257499%
+12.505768%
+18.754038%
+25.002307%
+31.250577%
+37.498846%
+43.747116%
+49.995385%
+56.243655%
+62.491924%
+68.740194%
+74.988463%
+81.236733%
+87.678819%
+95.440701%
+99.981541%
+.
+
+ The size of original file is 10835 bytes.
+ The size of compressed file is 2537 bytes.
+ The compression ratio is 76.585141%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

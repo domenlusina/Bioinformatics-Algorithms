@@ -1,0 +1,30 @@
+ Unconditionally compress DG.dat.
+ Searching for approximate repeats!
+ The compressed filename is DG.GEN!
+0.012079%
+6.256794%
+12.501510%
+18.746225%
+24.990941%
+31.235656%
+37.480372%
+43.725088%
+49.969803%
+56.214519%
+62.459234%
+68.703950%
+74.948665%
+81.193381%
+87.438096%
+95.059790%
+99.927527%
+
+
+ The size of original file is 8279 bytes.
+ The size of compressed file is 1921 bytes.
+ The compression ratio is 76.796715%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

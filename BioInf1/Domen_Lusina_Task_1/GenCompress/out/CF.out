@@ -1,0 +1,30 @@
+ Unconditionally compress CF.dat.
+ Searching for approximate repeats!
+ The compressed filename is CF.GEN!
+0.009163%
+6.258591%
+12.508018%
+18.757445%
+25.006873%
+31.256300%
+37.505727%
+43.755154%
+50.004582%
+56.254009%
+62.503436%
+68.752864%
+75.002291%
+81.563273%
+88.243379%
+96.774489%
+100.000000%
+
+
+ The size of original file is 10913 bytes.
+ The size of compressed file is 2180 bytes.
+ The compression ratio is 80.023825%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

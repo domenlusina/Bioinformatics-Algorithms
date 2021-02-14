@@ -1,0 +1,29 @@
+ Conditionally compress D.dat with reference to E.dat.
+ Searching for approximate repeats!
+  The compressed filename is D.GEN!
+2.654682%
+9.949833%
+12.520903%
+18.770903%
+25.020903%
+33.277592%
+41.471572%
+43.770903%
+50.501672%
+58.298495%
+62.520903%
+68.770903%
+77.341137%
+92.600334%
+92.621237%
+93.770903%
+
+
+ The size of original file is 4784 bytes.
+ The size of compressed file is 678 bytes.
+ The compression ratio is 85.827759%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

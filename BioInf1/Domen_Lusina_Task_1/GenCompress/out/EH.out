@@ -1,0 +1,30 @@
+ Unconditionally compress EH.dat.
+ Searching for approximate repeats!
+ The compressed filename is EH.GEN!
+0.013360%
+6.252505%
+12.491650%
+18.730795%
+24.969940%
+31.209085%
+37.448230%
+43.687375%
+49.926520%
+56.165665%
+62.404810%
+69.205077%
+75.511022%
+81.229125%
+87.361389%
+94.856379%
+99.839679%
+
+
+ The size of original file is 7485 bytes.
+ The size of compressed file is 1651 bytes.
+ The compression ratio is 77.942552%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

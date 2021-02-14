@@ -1,0 +1,30 @@
+ Unconditionally compress AE.dat.
+ Searching for approximate repeats!
+ The compressed filename is AE.GEN!
+0.009844%
+6.251231%
+12.492617%
+18.734003%
+24.975389%
+31.216775%
+37.458161%
+43.699547%
+49.940933%
+56.182319%
+62.423705%
+68.665092%
+74.906478%
+81.147864%
+87.871628%
+93.630636%
+99.872022%
+.
+
+ The size of original file is 10158 bytes.
+ The size of compressed file is 2401 bytes.
+ The compression ratio is 76.363457%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

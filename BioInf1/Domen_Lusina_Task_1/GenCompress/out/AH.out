@@ -1,0 +1,30 @@
+ Unconditionally compress AH.dat.
+ Searching for approximate repeats!
+ The compressed filename is AH.GEN!
+0.010606%
+6.257291%
+13.373635%
+18.750663%
+24.997349%
+31.244034%
+37.490720%
+43.737406%
+49.984092%
+56.230777%
+62.477463%
+69.180189%
+74.970835%
+81.217520%
+87.708134%
+94.103298%
+99.957578%
+..
+
+ The size of original file is 9429 bytes.
+ The size of compressed file is 2183 bytes.
+ The compression ratio is 76.848022%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

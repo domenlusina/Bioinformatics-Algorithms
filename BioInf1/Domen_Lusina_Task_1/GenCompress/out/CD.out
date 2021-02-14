@@ -1,0 +1,30 @@
+ Unconditionally compress CD.dat.
+ Searching for approximate repeats!
+ The compressed filename is CD.GEN!
+0.009117%
+6.254559%
+12.500000%
+18.745441%
+24.990883%
+31.236324%
+37.481765%
+43.727206%
+49.972648%
+56.218089%
+62.463530%
+68.955142%
+74.954413%
+81.810722%
+88.293217%
+96.772429%
+99.936178%
+
+
+ The size of original file is 10968 bytes.
+ The size of compressed file is 2196 bytes.
+ The compression ratio is 79.978118%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

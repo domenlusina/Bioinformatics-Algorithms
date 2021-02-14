@@ -1,0 +1,30 @@
+ Unconditionally compress GH.dat.
+ Searching for approximate repeats!
+ The compressed filename is GH.GEN!
+0.014550%
+6.256365%
+12.498181%
+18.739997%
+24.981813%
+31.223629%
+37.465444%
+43.707260%
+49.949076%
+56.190892%
+63.000145%
+68.674523%
+75.178234%
+81.158155%
+87.399971%
+94.398370%
+99.883603%
+
+
+ The size of original file is 6873 bytes.
+ The size of compressed file is 1480 bytes.
+ The compression ratio is 78.466463%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

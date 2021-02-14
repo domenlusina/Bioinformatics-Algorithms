@@ -1,0 +1,30 @@
+ Unconditionally compress DF.dat.
+ Searching for approximate repeats!
+ The compressed filename is DF.GEN!
+0.010512%
+6.254599%
+12.498686%
+18.742773%
+24.986860%
+31.230947%
+37.475034%
+43.719121%
+49.963208%
+56.207295%
+66.162094%
+70.429938%
+79.995795%
+82.676338%
+88.710186%
+97.088195%
+100.000000%
+
+
+ The size of original file is 9513 bytes.
+ The size of compressed file is 1479 bytes.
+ The compression ratio is 84.452854%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

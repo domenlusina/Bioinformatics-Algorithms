@@ -1,0 +1,30 @@
+ Unconditionally compress AG.dat.
+ Searching for approximate repeats!
+ The compressed filename is AG.GEN!
+0.010476%
+6.253928%
+13.209721%
+18.740834%
+24.984287%
+31.227739%
+37.471192%
+43.714645%
+49.958098%
+56.201550%
+62.445003%
+68.688456%
+74.931909%
+81.175361%
+88.047350%
+95.715483%
+99.905720%
+..
+
+ The size of original file is 9546 bytes.
+ The size of compressed file is 2289 bytes.
+ The compression ratio is 76.021370%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

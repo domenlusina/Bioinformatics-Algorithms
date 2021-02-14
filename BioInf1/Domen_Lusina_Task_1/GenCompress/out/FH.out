@@ -1,0 +1,30 @@
+ Unconditionally compress FH.dat.
+ Searching for approximate repeats!
+ The compressed filename is FH.GEN!
+0.012335%
+6.253855%
+12.495374%
+18.736894%
+24.978414%
+31.219933%
+37.461453%
+43.702973%
+49.944492%
+56.186012%
+62.427532%
+68.669051%
+75.255952%
+81.152091%
+88.269397%
+95.251018%
+99.876650%
+
+
+ The size of original file is 8107 bytes.
+ The size of compressed file is 1800 bytes.
+ The compression ratio is 77.796966%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

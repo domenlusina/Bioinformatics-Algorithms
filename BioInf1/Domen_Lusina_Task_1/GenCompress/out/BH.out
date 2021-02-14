@@ -1,0 +1,30 @@
+ Unconditionally compress BH.dat.
+ Searching for approximate repeats!
+ The compressed filename is BH.GEN!
+0.011832%
+6.258874%
+12.505916%
+18.752958%
+25.000000%
+31.247042%
+37.494084%
+43.741126%
+49.988168%
+56.235211%
+62.482253%
+69.167061%
+75.082821%
+81.223379%
+88.748225%
+95.444865%
+99.964505%
+
+
+ The size of original file is 8452 bytes.
+ The size of compressed file is 1857 bytes.
+ The compression ratio is 78.028869%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

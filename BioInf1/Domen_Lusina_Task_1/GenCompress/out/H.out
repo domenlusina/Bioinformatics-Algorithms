@@ -1,0 +1,30 @@
+ Unconditionally compress H.dat.
+ Searching for approximate repeats!
+ The compressed filename is H.GEN!
+0.029603%
+6.275903%
+13.972765%
+18.768502%
+25.014802%
+31.764358%
+37.507401%
+43.753700%
+50.000000%
+56.246300%
+62.492599%
+68.738899%
+76.139728%
+81.231498%
+87.477798%
+93.901717%
+99.970397%
+
+
+ The size of original file is 3378 bytes.
+ The size of compressed file is 762 bytes.
+ The compression ratio is 77.442274%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 

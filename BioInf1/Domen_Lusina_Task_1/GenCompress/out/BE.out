@@ -1,0 +1,30 @@
+ Unconditionally compress BE.dat.
+ Searching for approximate repeats!
+ The compressed filename is BE.GEN!
+0.010892%
+6.252042%
+12.493192%
+18.734343%
+24.975493%
+31.216643%
+37.457793%
+43.698943%
+49.940094%
+56.682279%
+62.422394%
+69.208147%
+77.039538%
+81.145845%
+89.314889%
+97.037360%
+99.869295%
+
+
+ The size of original file is 9181 bytes.
+ The size of compressed file is 1724 bytes.
+ The compression ratio is 81.222089%.
+    (defined by 1-|compressed_file|/|original_file|)
+
+ Note: To verify the correctness of compression, you need follow the next two steps and then see what happens.
+       1>  gendecompress  original_file.gen  [-c reference_file] 
+       2>  comparetwofile  original_file  original_file.out 
